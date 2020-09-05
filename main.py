@@ -1,5 +1,5 @@
 # Author: Kieran Murdocca kkm5754@psu.edu
-lg1 = input("Enter your course 1 letter grade: ")
+input("Enter your course 1 letter grade: ")
 c1 = float(input("Enter your course 1 credit: "))
 if lg1 == "A": 
   print("Grade point for course 1 is:" , (4.00))
@@ -28,7 +28,7 @@ elif lg1 == "D":
 else:
   print("Grade point for course 1 is:" , (0.00))
   P1=float(0.00)
-lg2 = input("Enter your course 2 letter grade: ")
+input("Enter your course 2 letter grade: ")
 c2 = float(input("Enter your course 2 credit: "))
 if lg2 == "A": 
   print("Grade point for course 2 is:" , (4.00))
@@ -57,7 +57,7 @@ elif lg2 == "D":
 else:
   print("Grade point for course 2 is:" , (0.00))
   P2=float(0.00)
-lg3 = input("Enter your course 3 letter grade: ")
+input("Enter your course 3 letter grade: ")
 c3 = float(input("Enter your course 3 credit: "))
 if lg3 == "A": 
   print("Grade point for course 3 is:" , (4.00))
